@@ -91,3 +91,12 @@ body, h1, h2, p, ul, li {
     }
   }
   
+  #portfolioImage {
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  @media (max-width: 600px) {
+    #portfolioImage {
+      width: 50%;
+    }
+  }
