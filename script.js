@@ -14,3 +14,9 @@ function moveImage() {
 function resetImage() {
   document.getElementById('portfolioImage').style.transform = 'translateX(0)';
 }
+function submitForm() {
+  var name = document.getElementById("name").value;
+  var email = document.getElementById("email").value;
+  var message = document.getElementById("message").value;
+  document.getElementById("contactForm").reset();
+}
